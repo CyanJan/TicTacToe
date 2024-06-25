@@ -16,6 +16,19 @@ Spielfeld::Spielfeld(int pXpos, int pYpos)
 	DieFelder[6] = new Feld(xPos       , yPos + 100	);
 	DieFelder[7] = new Feld(xPos + 50  , yPos + 100	);
 	DieFelder[8] = new Feld(xPos + 100 , yPos + 100	);
+
+	for(int i = 0; i < 9; i++)
+		dieFelder[i] = new Feld(xPos + ((i % 3) * 50), yPos + ((i/3) * 50));
+
+	int k = 0;
+	for(int i = 0; i < 3; i++)
+	{
+		for(int j = 0, j < 3 j++)
+		{
+			dieFelder[k] = new Feld(xPos + (size * j), yPos + (size * i);
+			k = k++;
+		}
+	}
 	
 }
 
