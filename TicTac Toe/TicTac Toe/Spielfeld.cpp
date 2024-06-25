@@ -7,15 +7,15 @@ Spielfeld::Spielfeld(int pXpos, int pYpos)
 
 	turn = 0;
 
-	DieFelder[0] = new Feld(xPos     , yPos);
-	DieFelder[1] = new Feld(xPos + 50, yPos);
-	DieFelder[2] = new Feld(xPos + 100, yPos);
-	DieFelder[3] = new Feld(xPos     , yPos + 50);
-	DieFelder[4] = new Feld(xPos + 50, yPos + 50);
-	DieFelder[5] = new Feld(xPos + 100, yPos + 50);
-	DieFelder[6] = new Feld(xPos     , yPos + 100);
-	DieFelder[7] = new Feld(xPos + 50, yPos + 100);
-	DieFelder[8] = new Feld(xPos + 100, yPos + 100);
+	DieFelder[0] = new Feld(xPos       , yPos	);
+	DieFelder[1] = new Feld(xPos + 50  , yPos	);
+	DieFelder[2] = new Feld(xPos + 100 , yPos	);
+	DieFelder[3] = new Feld(xPos       , yPos + 50	);
+	DieFelder[4] = new Feld(xPos + 50  , yPos + 50	);
+	DieFelder[5] = new Feld(xPos + 100 , yPos + 50	);
+	DieFelder[6] = new Feld(xPos       , yPos + 100	);
+	DieFelder[7] = new Feld(xPos + 50  , yPos + 100	);
+	DieFelder[8] = new Feld(xPos + 100 , yPos + 100	);
 	
 }
 
