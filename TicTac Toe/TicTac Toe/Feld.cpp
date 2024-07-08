@@ -68,15 +68,16 @@ void Feld::setCircle()
 void Feld::clear()
 {
 	Cross = false;
-		Circle = false;
+	Circle = false;
 }
 
 void Feld::draw(Graphics^ c)
 {
-	Pen^ p   = gcnew Pen		(Color::White, 1);
-	Pen^ p2 = gcnew Pen			(Color::Blue, 3);
-	Pen^ p3 = gcnew Pen			(Color::Red, 3);
-	c->DrawRectangle            (p, xPos, yPos, size, size);
+	Pen^ p   = gcnew Pen	(Color::White, 1 );
+	Pen^ p2 = gcnew Pen	(Color::Blue, 3  );
+	Pen^ p3 = gcnew Pen	(Color::Red, 3   );
+	
+	c->DrawRectangle        (p, xPos, yPos, size, size);
 
 	if (Cross == true)
 	{
